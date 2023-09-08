@@ -6,6 +6,8 @@
   "rules": {
     "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/semi": "off",
     "n/handle-callback-err": "off",
     "no-unreachable-loop": "off"
   }
