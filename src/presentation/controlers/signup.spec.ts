@@ -1,6 +1,6 @@
 import { SignUpController } from './signup'
 import { MissingParamError, InvalidParamError, ServerError } from "../errors";
-import { type EmailValidator } from '../protocols/email-validator';
+import { type EmailValidator } from '../protocols';
 
 interface IMakeSut {sut: SignUpController, emailValidatorStub: EmailValidator }
 
