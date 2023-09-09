@@ -1,8 +1,8 @@
 import { SignUpController } from './signup'
-import { MissingParamError, InvalidParamError, ServerError } from "../errors";
-import { type EmailValidator } from '../protocols';
-import { type AddAccount, type AddAccountModel } from '../../domain/usecases/add-account';
-import { type AccountModel } from '../../domain/models/account';
+import { MissingParamError, InvalidParamError, ServerError } from "../../errors";
+import { type AddAccount, type AddAccountModel } from '../../../domain/usecases/add-account';
+import { type AccountModel } from '../../../domain/models/account';
+import { type EmailValidator } from '../../protocols/email-validator';
 
 interface IMakeSut {
   sut: SignUpController
