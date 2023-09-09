@@ -3,6 +3,13 @@ export interface HttpResponse {
   body: any
 }
 
+interface HttpRequestBody {
+  name?: string
+  email?: string
+  password?: string
+  passwordConfirmation?: string
+}
+
 export interface HttpRequest {
-  body?: any
+  body?: HttpRequestBody
 }
